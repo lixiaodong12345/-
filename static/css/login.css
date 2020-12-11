@@ -1,0 +1,81 @@
+.login_content {
+  height: 660px;
+  background-color: pink;
+}
+.login_content .login_content_content {
+  height: 100%;
+  overflow: hidden;
+}
+.login_content .login_content_content .login_content_box {
+  width: 390px;
+  height: 431px;
+  background: #ffffff;
+  box-shadow: 0px 5px 28px 1px rgba(0, 0, 0, 0.56);
+  margin-top: 96px;
+  margin-right: 50px;
+  padding: 41px 45px 0 45px;
+  box-sizing: border-box;
+}
+.login_content .login_content_content .login_content_box .login_content_box_text {
+  width: 80px;
+  height: 18px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_forget {
+  width: 300px;
+  margin-top: 10px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_forget a {
+  display: inline-block;
+  width: 70px;
+  height: 12px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #666666;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else {
+  width: 300px;
+  margin-top: 10px;
+  height: 30px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else a {
+  display: inline-block;
+  width: 85px;
+  height: 12px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #999999;
+  margin-left: 17px;
+  margin-top: 5px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else .login_content_box_else_div1,
+.login_content .login_content_content .login_content_box .login_content_box_else .login_content_box_else_div2 {
+  width: 91px;
+  height: 1px;
+  background: #cccccc;
+  margin-top: 15px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else_wx_img {
+  margin-top: 10px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else_wx_text {
+  margin-top: 15px;
+}
+.login_content .login_content_content .login_content_box .login_content_box_else_wx_text a {
+  display: inline-block;
+  width: 30px;
+  height: 12px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #666666;
+}
+.footer {
+  margin-top: 0;
+}

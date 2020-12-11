@@ -1,0 +1,135 @@
+@bgc: #ff7800;
+header {
+  border-bottom: 2px solid @bgc;
+}
+.goods_content {
+  .goods_content_text {
+    margin-top: 20px;
+    span {
+      display: block;
+      width: 118px;
+      height: 16px;
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #666666;
+    }
+  }
+  //   筛选模块
+  .goods_content_screen {
+    display: flex;
+    margin-top: 20px;
+    width: 1200px;
+    height: 56px;
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    // line-height: 56px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    div {
+      float: left;
+      margin: auto 0;
+      margin-right: 18px;
+    }
+    .goods_content_screen_checked {
+      width: 72px;
+      height: 32px;
+      background: @bgc;
+      text-align: center;
+      line-height: 32px;
+      a {
+        // display: inline-block;
+        width: 31px;
+        height: 15px;
+        font-size: 16px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+    .goods_content_screen_no_checked {
+      background: #e1e1e1;
+      a {
+        color: #333333;
+      }
+    }
+    .goods_content_screen_input {
+      margin-left: 38px;
+      input {
+        width: 100px;
+        height: 32px;
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+      }
+      span {
+        width: 9px;
+        height: 2px;
+        font-size: 16px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #333333;
+      }
+    }
+    .goods_content_screen_num {
+      width: 102px;
+      height: 15px;
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #999999;
+      margin-bottom: 23px;
+      margin-left: 400px;
+    }
+  }
+  .goods_content_list {
+    margin-top: 20px;
+    ul {
+      overflow: hidden;
+      li {
+        float: left;
+        width: 228px;
+        height: 280px;
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center;
+        a {
+          text-align: center;
+          img {
+            margin-top: 28px;
+            width: 170px;
+            height: 170px;
+          }
+          span {
+            display: block;
+            width: 197px;
+            height: 15px;
+            font-size: 16px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #333333;
+            margin: 0 auto;
+            margin-top: 21px;
+          }
+          .goods_content_list_div2 {
+            margin: 0 auto;
+            display: block;
+            width: 40px;
+            height: 12px;
+            font-size: 16px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: #e4393c;
+            margin-top: 17px;
+          }
+        }
+      }
+    }
+  }
+  //   商品分页
+  .goods_content_page {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
