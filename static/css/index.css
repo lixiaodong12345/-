@@ -1,13 +1,13 @@
 header .header_title {
   background-color: #ff7800;
-  height: 40px;
-  line-height: 40px;
+  height: 30px;
+  line-height: 30px;
 }
 header .header_title .header_title_left {
   float: left;
   width: 121px;
   height: 17px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: #ffffff;
@@ -16,7 +16,7 @@ header .header_title .header_title_right {
   float: right;
   width: 368px;
   height: 17px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: #ffffff;

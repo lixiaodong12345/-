@@ -112,3 +112,96 @@
   font-weight: 400;
   color: #333333;
 }
+.jdq_content .jdq_content_search .jdq_content_search_middle {
+  margin-top: 5px;
+  width: 300px;
+  height: 30px;
+  margin-left: 64px;
+  line-height: 0px;
+}
+.jdq_content .jdq_content_search .jdq_content_search_middle input {
+  width: 220px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #999999;
+  padding-left: 5px;
+}
+.jdq_content .jdq_content_search .jdq_content_search_middle button {
+  margin-left: 14px;
+  height: 100%;
+  width: 45px;
+  background: #ff7800;
+  border: none;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #ffffff;
+}
+.jdq_content .jdq_content_search .jdq_content_search_right {
+  margin-right: 16px;
+}
+.jdq_content .jdq_content_content {
+  margin-top: 20px;
+}
+.jdq_content .jdq_content_content ul li {
+  width: 230px;
+  height: 315px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  padding: 20px 20px 0 20px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.jdq_content .jdq_content_content ul li img {
+  width: 190px;
+  height: 190px;
+  margin-bottom: 5px;
+}
+.jdq_content .jdq_content_content ul li .span1 {
+  display: inline-block;
+  width: 176px;
+  height: 35px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 5px;
+}
+.jdq_content .jdq_content_content ul li .span2 {
+  display: inline-block;
+  width: 180px;
+}
+.jdq_content .jdq_content_content ul li .span2 span {
+  display: inline-block;
+  width: 77px;
+  height: 13px;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #999999;
+}
+.jdq_content .jdq_content_content ul li .span2 .span3 {
+  text-decoration: line-through;
+}
+.jdq_content .jdq_content_content ul li .div1 {
+  margin-top: 5px;
+}
+.jdq_content .jdq_content_content ul li .div1 .div3 {
+  width: 64px;
+  height: 25px;
+  background: #ffdedf;
+  border: 1px solid #e4393c;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #e4393c;
+  text-align: center;
+  line-height: 25px;
+}
+.jdq_content .jdq_content_page {
+  margin-top: 15px;
+  text-align: center;
+}
